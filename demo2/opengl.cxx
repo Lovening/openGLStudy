@@ -39,6 +39,7 @@ int main()
         glfwTerminate();
         return -1;
     }
+    // 将窗口加入上下文中
     glfwMakeContextCurrent(window);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
